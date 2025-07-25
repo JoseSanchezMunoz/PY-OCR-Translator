@@ -1,0 +1,72 @@
+# ======================================
+# Ignora entornos virtuales
+# ======================================
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+
+# ======================================
+# Archivos bytecode y cachés de Python
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ======================================
+# Archivos temporales y de sistema
+# ======================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.out
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+.Trashes
+
+# ======================================
+# Configuraciones de IDEs
+# ======================================
+# Visual Studio Code
+.vscode/
+# PyCharm / JetBrains
+.idea/
+
+# ======================================
+# Archivos de construcción y distribución
+# ======================================
+build/
+dist/
+*.egg-info/
+*.spec
+
+# ======================================
+# Archivos de entorno y secretos
+# ======================================
+*.env
+.env.*
+.env.local
+secrets.json
+
+# ======================================
+# Archivos de OCR o recursos de imagen
+# ======================================
+capturas/
+imagenes_ocr/
+*.box
+*.traineddata
+*.jpg
+*.jpeg
+*.png
+
+# ======================================
+# Archivos de ejecución
+# ======================================
+*.exe
+*.bat
