@@ -10,11 +10,11 @@ Nota: De momento solo disponible para versión Ingles -> Español
 
 
 
-\# 🧠 Traductor OCR (Interfaz Gráfica)
+## 🧠 Traductor OCR (Interfaz Gráfica)
 
 
 
-Este proyecto es una \*\*aplicación de escritorio en Python\*\* que permite \*\*capturar texto de la pantalla mediante OCR y traducirlo automáticamente\*\* a otro idioma usando la API de Google Translate. Dispone de una \*\*interfaz gráfica amigable\*\* construida con `Tkinter`, lo que facilita su uso incluso a usuarios sin conocimientos técnicos.
+Este proyecto es una **aplicación de escritorio en Python** que permite **capturar texto de la pantalla mediante OCR y traducirlo automáticamente** a otro idioma usando la API de Google Translate. Dispone de una **interfaz gráfica amigable** construida con `Tkinter`, lo que facilita su uso incluso a usuarios sin conocimientos técnicos.
 
 
 
@@ -22,13 +22,13 @@ Este proyecto es una \*\*aplicación de escritorio en Python\*\* que permite \*\
 
 
 
-\## 🚀 Características principales
+## 🚀 Características principales
 
 
 
 \- Captura automática del texto visible en pantalla (OCR).
 
-\- Traducción inmediata del contenido a múltiples idiomas.
+\- Traducción inmediata del contenido.
 
 \- Interfaz visual simple e intuitiva.
 
@@ -44,11 +44,11 @@ Este proyecto es una \*\*aplicación de escritorio en Python\*\* que permite \*\
 
 
 
-\## 🛠️ Tecnologías y librerías utilizadas
+## 🛠️ Tecnologías y librerías utilizadas
 
 
 
-\- \*\*Python 3.12.7\*\*
+\- **Python 3.12.7**
 
 \- `tkinter` – para construir la GUI.
 
@@ -68,7 +68,7 @@ Este proyecto es una \*\*aplicación de escritorio en Python\*\* que permite \*\
 
 
 
-\## 📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 
 
@@ -118,26 +118,26 @@ traductor\_ocr\_gui/
 
 
 
-\## 📦 Instalación y ejecución
+## 📦 Instalación y ejecución
 
 
 
-\### 1. Clona el repositorio
+### 1. Clona el repositorio
 
 
-
+```bash
 git clone https://github.com/JoseSanchezMunoz/PY-OCR-Translator.git
 
 cd PY-OCR-Translator
+```
 
 
-
-\### 2. Crea un entorno virtual (recomendado)
-
+### 2. Crea un entorno virtual (recomendado)
 
 
+```bash
 python -m venv venv
-
+```
 
 
 Actívalo:
@@ -156,7 +156,7 @@ Actívalo:
 
 
 
-\### 3. Instala las dependencias
+### 3. Instala las dependencias
 
 
 
@@ -164,7 +164,7 @@ pip install -r requirements.txt
 
 
 
-\### 4. Instala Tesseract OCR
+### 4. Instala Tesseract OCR
 
 
 
@@ -188,7 +188,7 @@ Este proyecto requiere que tengas instalado el motor Tesseract en tu sistema:
 
 
 
-Edita la siguiente línea del archivo ocr_engine.py si es necesario:
+Edita la siguiente línea del archivo config/settings.py si es necesario:
 
 > pytesseract.pytesseract.tesseract_cmd = r"D:/Programas/OCR/Tesseract-OCR/tesseract.exe"
 
@@ -196,15 +196,17 @@ Edita la siguiente línea del archivo ocr_engine.py si es necesario:
 
 
 
-\## 🧪 Cómo usarlo
+## 🧪 Cómo usarlo
 
 
 
 1\. Ejecuta el programa:
 
 
-
+```bash
 python main.py
+
+```
 
 
 
@@ -224,7 +226,7 @@ python main.py
 
 
 
-\## 📄 Licencia
+## 📄 Licencia
 
 
 
@@ -236,11 +238,11 @@ Este proyecto puede ser reutilizado libremente siempre que se brinde el crédito
 
 
 
-\## 👨‍💻 Autor
+## 👨‍💻 Autor
 
 
 
-\*\*José Sánchez Muñoz\*\*  
+**José Sánchez Muñoz**  
 
 Ingeniero de Sistemas  
 
